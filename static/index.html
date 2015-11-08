@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="site.css">
+  </head>
+  <body class="">
+    <header class="masthead section row">
+      <div class="logo section-item row-item">
+        <a href="/">Cardboard IoT</a>
+      </div>
+      <ul class="social section-item menu row-item row">
+        <li class="menu-item social-item row-item">
+          <a href="http://github.com/cardboardiot">
+            <i class="icon-github">
+              <img src="images/icon-github.svg" />
+              <span class="visually-hidden">Github</span>
+            </i>
+          </a>
+        </li>
+        <li class="menu-item social-item row-item">
+          <a href="http://twitter.com/cardboardiot">
+            <i class="icon-twitter">
+              <img src="images/icon-twitter.svg" />
+              <span class="visually-hidden">Twitter</span>
+            </i>
+          </a>
+        </li>
+      </ul>
+    </header>
+    <section class="section hero row">
+      <h1 class="section-item hero-hd row-item">Learn full-stack IoT by building cardboard versions of your favourite connected products</h1>
+    </section>
+    <section class="explainer section">
+        <ul class="row">
+          <li class="row-item explainer-item">
+            <div class="image">
+              <img src="images/explainer-icon-cardboard.svg" />
+            </div>
+            Learn how to make open-source, cardboard versions of your favourite products</li>
+          <li class="row-item explainer-item">
+            <div class="image">
+              <img src="images/explainer-icon-hardware.svg" />
+            </div>
+            Build real connected hardware and software</li>
+          <li class="row-item explainer-item">
+            <div class="image">
+              <img src="images/explainer-icon-software.svg" />
+            </div>
+            Extend your programming skills to learn full-stack IoT from messaging to apps</li>
+        </ul>
+      </div>
+    </section>
+    <section class="newsletter section row">
+      <div class="row-item newsletter-cta">
+        <h2 class="newsletter-primary">Stay up-to-date with our kits and workshops</h2>
+        <p class="newsletter-secondary">And get a free "IoT for Developers" ebook</p>
+      </div>
+      <div class="action row-item newsletter-action">
+        <input class="action-input" type="text" placeholder="me@example.com" />
+        <button class="action-primary">Subscribe</button>
+      </div>
+    </section>
+    <!-- <section class="ui segment vertical ">
+      <div class="ui container">
+        <h2>Our demo workshop</h2>
+        <p>Follow along and learn how to make a pinhole camera smart in our first workshop:
+          <code>npm install smart-pinhole-workshop</code>
+        </p>
+      </div>
+    </section> -->
+    <aside class="credits section">
+      <h2>Icons by the <a href="">Noun Project</a></h2>
+      <ul>
+        <li><a href="https://thenounproject.com/term/led-bulb/166623/">Led Bulb By DANT, IT</a></li>
+        <li><a href="https://thenounproject.com/term/cut/130881/">Cut By Aaron K. Kim, US</a></li>
+        <li><a href="https://thenounproject.com/term/arduino/34403/">Arduino By uizin, IT</a></li>
+        <li><a href="https://thenounproject.com/term/apps/98676/">Apps By Bin Hur</a></li>
+        <li><a href="https://thenounproject.com/term/box/221161/">Box By Nick Bluth, US</a></li>
+        <li><a href="https://thenounproject.com/term/bird/54999/">Bird By Mundo</a></li>
+        <li><a href="https://thenounproject.com/term/cloud-computing/74781/">Cloud Computing By Sathish Selladurai, IN</a></li>
+      </ul>
+    </aside>
+    <footer class="footer section row">
+      <p class="row-item">
+        &copy; Cardboard IoT 2015
+        (<a href="#credits">Icon credits</a>)
+      </p>
+      <p class="row-item footer-social">
+        Questions or comments? <a href="mailto:">Drop us a line.</a>
+      </p>
+    </footer>
+    <script>
+      (function () {
+        document
+          .querySelector('[href="#credits"]')
+          .addEventListener('click', function (evt) {
+            document
+              .querySelector('.credits')
+              .classList
+              .toggle('credits-is-active');
+          });
+      })();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+.newsletter {
+  margin: 1rem 2rem 0 2rem;
+  padding-bottom: 1rem;
+}
+
+.newsletter-cta {
+  max-width: 50vw;
+  font-weight: normal;
+}
+
+.newsletter-primary,
+.newsletter-secondary {
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.newsletter-primary {
+  font-size: 1.3rem;
+}
+
+
+.newsletter-action {
+  text-align: right;
+}

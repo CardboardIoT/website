@@ -1,0 +1,23 @@
+{
+  "name": "website",
+  "version": "0.0.1",
+  "description": "CardboardIoT website",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "surge -p static/",
+    "build": "npm run build:css",
+    "build:css": "postcss --config ./postcss-config.json --output static/site.css css/main.css",
+    "watch": "npm run watch:css",
+    "watch:css": "postcss --watch --config ./postcss-config.json --output static/site.css css/main.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^6.0.3",
+    "normalize.css": "^3.0.3",
+    "postcss-cli": "^2.3.2",
+    "postcss-custom-properties": "^5.0.0",
+    "postcss-import": "^7.1.2"
+  }
+}

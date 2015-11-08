@@ -1,0 +1,13 @@
+.hero {
+  padding-top: var(--masthead-height);
+  min-height: 380px;
+  background: var(--primary-color) url(images/hero.jpg) no-repeat;
+  background-size: cover;
+}
+
+.hero-hd {
+  max-width: 578px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 40px;
+}

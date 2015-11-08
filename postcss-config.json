@@ -1,0 +1,7 @@
+{
+  "use": [
+    "postcss-import",
+    "postcss-custom-properties",
+    "autoprefixer"
+  ]
+}

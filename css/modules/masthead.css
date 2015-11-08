@@ -1,0 +1,50 @@
+.masthead {
+  position: absolute;
+  min-height: var(--masthead-height);
+  background: rgba(74, 74, 74, 0.7);
+  width: 100vw;
+}
+
+.masthead a {
+  color: #fff;
+}
+
+.masthead a,
+.masthead a:hover {
+  text-decoration: none;
+}
+
+.masthead .logo,
+.masthead .social {
+}
+
+
+.masthead .logo {
+  margin-left: 2rem;
+  padding-left: 2rem;
+  background: url(images/bird.svg) no-repeat;
+  background-size: contain;
+  font-size: 1.5rem;
+}
+
+.masthead .social {
+  text-align: right;
+}
+
+.social {
+  flex: 0 0 100px;
+}
+
+.social-item {
+  height: 38px;
+  width: 38px;
+  padding-right: 4rem;
+}
+
+.social-item a,
+.social-item i,
+.social-item img {
+  display: block;
+  width: inherit;
+  height: inherit;
+}

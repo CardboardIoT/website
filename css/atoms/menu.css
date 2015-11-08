@@ -1,0 +1,22 @@
+/*.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: baseline;
+
+  outline: 1px solid gold;
+}
+
+.menu-item {
+  order: 0;
+  flex: 1 1 auto;
+  align-self: center;
+
+  outline: 2px solid blue;
+}*/

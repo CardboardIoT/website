@@ -1,0 +1,22 @@
+.action {
+  display: inline-flex;
+}
+
+.action-input,
+.action-primary {
+  padding: 0.5rem 1rem;
+}
+
+.action-input {
+  flex: 1 0 auto;
+}
+
+.action-primary {
+  border: var(--text-color);
+  color: var(--text-color);
+  background-color: var(--primary-color);
+}
+
+.action-primary:hover {
+  background-color: var(--primary-active-color);
+}

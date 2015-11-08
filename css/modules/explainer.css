@@ -1,0 +1,28 @@
+.explainer {
+  min-height: 294px;
+
+  background-image: linear-gradient(-135deg, #FDED63 0%, #FFF176 100%);
+}
+
+.explainer > * {
+  min-height: inherit;
+}
+
+.explainer-item {
+  max-width: 190px;
+  min-height: 176px;
+  text-align: center;
+}
+
+.explainer-item:first-child {
+  margin-right: 85px;
+}
+
+.explainer-item:last-child {
+  margin-left: 85px;
+}
+
+.explainer-item .image {
+  margin-bottom: 20px;
+  max-height: 60px;
+}

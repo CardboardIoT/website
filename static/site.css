@@ -625,6 +625,7 @@ html {
 .hero {
   padding-top: 60px;
   min-height: 380px;
+  color: #fff;
   background: rgba(255,241,118,1) url(images/hero.jpg) no-repeat;
   background-size: cover;
 }

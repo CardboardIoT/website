@@ -1,6 +1,7 @@
 .hero {
   padding-top: var(--masthead-height);
   min-height: 380px;
+  color: #fff;
   background: var(--primary-color) url(images/hero.jpg) no-repeat;
   background-size: cover;
 }

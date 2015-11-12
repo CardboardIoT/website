@@ -9,6 +9,8 @@
     "build:css": "postcss --config ./postcss-config.json --output static/site.css css/main.css",
     "watch": "npm run watch:css",
     "watch:css": "postcss --watch --config ./postcss-config.json --output static/site.css css/main.css",
+    "serve": "puer --dir static/",
+    "dev": "npm-run-all --parallel wtach serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -16,8 +18,10 @@
   "devDependencies": {
     "autoprefixer": "^6.0.3",
     "normalize.css": "^3.0.3",
+    "npm-run-all": "^1.2.13",
     "postcss-cli": "^2.3.2",
     "postcss-custom-properties": "^5.0.0",
-    "postcss-import": "^7.1.2"
+    "postcss-import": "^7.1.2",
+    "puer": "^1.1.1"
   }
 }

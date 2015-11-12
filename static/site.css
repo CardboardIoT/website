@@ -636,6 +636,40 @@ html {
   font-weight: normal;
   font-size: 40px;
 }
+article {
+  padding: 0 1rem;
+}
+.header {
+  padding-top: 60px;
+  padding-left: 2rem;
+  min-height: 280px;
+  color: #fff;
+  background: rgba(255,241,118,1);
+  background-size: cover;
+  color: rgba(74, 74, 74, 1);
+}
+
+.header-pre,
+.header-hd,
+.header-sub {
+  margin: 0;
+  font-weight: normal;
+}
+
+.header-pre {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.header-hd {
+  font-size: 40px;
+}
+
+.header-sub {
+  font-size: 20px;
+}
 .explainer {
   min-height: 294px;
 

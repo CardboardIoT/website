@@ -1,0 +1,31 @@
+.header {
+  padding-top: var(--masthead-height);
+  padding-left: 2rem;
+  min-height: 280px;
+  color: #fff;
+  background: var(--primary-color);
+  background-size: cover;
+  color: var(--text-color);
+}
+
+.header-pre,
+.header-hd,
+.header-sub {
+  margin: 0;
+  font-weight: normal;
+}
+
+.header-pre {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.header-hd {
+  font-size: 40px;
+}
+
+.header-sub {
+  font-size: 20px;
+}

@@ -1,0 +1,10 @@
+.media {
+  /*height: 416px;
+  width: 234px;*/
+}
+
+.media-floated {
+  float: right;
+  /*padding: 1rem 1rem 1rem 0;*/
+  padding: 1rem 0 1rem 1rem;
+}

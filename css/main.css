@@ -9,6 +9,7 @@
 @import 'atoms/section.css';
 @import 'atoms/menu.css';
 @import 'atoms/action.css';
+@import 'atoms/media.css';
 
 @import 'modules/masthead.css';
 @import 'modules/hero.css';
@@ -18,3 +19,4 @@
 @import 'modules/newsletter.css';
 @import 'modules/credits.css';
 @import 'modules/footer.css';
+@import 'modules/demo-workshop.css';

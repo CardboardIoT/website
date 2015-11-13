@@ -515,6 +515,10 @@ html {
 
   /*outline: 1px solid blue;*/
 }
+.section {
+  overflow: auto;
+}
+
 .section-seperator {
   border-bottom: 2px solid rgba(74, 74, 74, 0.2);
 }
@@ -567,6 +571,16 @@ html {
 
 .action-primary:hover {
   background-color: rgba(250,232,72,1);
+}
+.media {
+  /*height: 416px;
+  width: 234px;*/
+}
+
+.media-floated {
+  float: right;
+  /*padding: 1rem 1rem 1rem 0;*/
+  padding: 1rem 0 1rem 1rem;
 }
 
 .masthead {
@@ -750,4 +764,7 @@ article {
 
 .footer-social {
   text-align: right;
+}
+.demo-workshop-content {
+  /*margin-left: 250px;*/
 }

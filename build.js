@@ -8,7 +8,7 @@ var inPlace = require('metalsmith-in-place');
 var assets = require('metalsmith-assets');
 var watch = require('metalsmith-watch');
 
-var watching;
+var watching, pipeline;
 if (process.env.WATCH_FILES) {
   watching = watch({
     paths: {
@@ -19,10 +19,14 @@ if (process.env.WATCH_FILES) {
   });
 }
 
-Metalsmith(__dirname)
-  .source('pages')
-  .use(watching)
-  .use(inPlace({
+var pipeline = Metalsmith(__dirname)
+  .source('pages');
+
+if (watching) {
+  pipeline.use(watching);
+}
+
+pipeline.use(inPlace({
     engine: 'handlebars',
     partials: 'partials',
   }))

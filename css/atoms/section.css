@@ -2,6 +2,12 @@
   overflow: auto;
 }
 
-.section-seperator {
-  border-bottom: 2px solid rgba(74, 74, 74, 0.2);
+.section.section-padding {
+  margin: 0 2rem 0 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.section-seperator-above {
+  border-top: 2px solid rgba(74, 74, 74, 0.2);
 }

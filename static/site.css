@@ -662,7 +662,7 @@ article {
 .header {
   padding-top: 60px;
   padding-left: 2rem;
-  min-height: 280px;
+  min-height: 200px;
   color: #fff;
   background: rgba(255,241,118,1);
   background-size: cover;

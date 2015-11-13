@@ -13,6 +13,15 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
 
+a, a:active {
+  color: var(--text-color);
+}
+
+a:hover,
+a:visited {
+  color: var(--text-color-secondary);
+}
+
 /*
   border-box
 */

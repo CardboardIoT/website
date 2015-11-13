@@ -439,6 +439,15 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
 
+a, a:active {
+  color: rgba(74, 74, 74, 1);
+}
+
+a:hover,
+a:visited {
+  color: rgba(54, 54, 54, 1);
+}
+
 /*
   border-box
 */

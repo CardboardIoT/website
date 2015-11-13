@@ -3,11 +3,46 @@
 }
 
 .section.section-padding {
-  margin: 0 2rem 0 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  margin: 0;
+  padding: 1rem 2rem;
+}
+
+.section.section-padding.section-link {
+  padding: 0;
+}
+
+.section.section-padding.section-link a,
+.section.section-padding.section-link a:hover {
+  display: block;
+  margin: 0;
+  padding: 1rem 2rem;
 }
 
 .section-seperator-above {
   border-top: 2px solid rgba(74, 74, 74, 0.2);
+}
+
+.section-primary,
+.section-secondary {
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.section-primary {
+  font-size: 1.3rem;
+}
+
+/*
+  Reset text styles in linked sections
+*/
+.section-link a ,
+.section-link a:hover {
+  color: var(--text-color);
+  text-decoration: none !important;
+}
+
+.section-link a:hover {
+  display: block;
+  background: var(--primary-color);
 }

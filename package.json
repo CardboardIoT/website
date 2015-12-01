@@ -25,11 +25,13 @@
     "metalsmith-layouts": "^1.4.2",
     "metalsmith-markdown": "^0.2.1",
     "metalsmith-watch": "^1.0.1",
+    "metalsmith-permalinks": "^0.4.0'",
     "normalize.css": "^3.0.3",
     "npm-run-all": "^1.2.13",
     "postcss-cli": "^2.3.2",
     "postcss-custom-properties": "^5.0.0",
     "postcss-import": "^7.1.2",
-    "puer": "^1.1.1"
+    "puer": "^1.1.1",
+    "handlebars": "^4.0.5"
   }
 }

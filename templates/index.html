@@ -62,7 +62,16 @@
               .querySelector('.credits')
               .classList
               .toggle('credits-is-active');
-          });
+          }, true);
+
+        document
+          .querySelector('[href="#signup"]')
+          .addEventListener('click', function (evt) {
+            evt.preventDefault();
+            document
+              .querySelector('.newsletter-action .action-input')
+              .focus();
+          }, true)
       })();
     </script>
   </body>

@@ -21,3 +21,13 @@
   background-color: var(--text-color-secondary);
   color: var(--primary-active-color);
 }
+
+a.action-primary {
+  padding: 1rem 2rem !important;
+}
+
+a.action-primary,
+a.action-primary:hover {
+  text-decoration: none;
+  color: #fff;
+}

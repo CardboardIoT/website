@@ -5,8 +5,23 @@
   line-height: 1.7;
 }
 
+.kit,
 .workshop {
   text-align: center;
+}
+
+.kit-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  /*justify-content: center;*/
+  justify-content: space-between;
+  align-content: stretch;
+  align-items: center;
+}
+
+.kit > * {
+  flex: 1 1 auto;
 }
 
 .why .section-primary,
@@ -32,10 +47,20 @@
 }
 
 .kit-primary-image {
-  width: 50%;
-  float: right;
+  width: 30%;
+  padding: 1rem;
+}
+
+.kit-first {
+  order: -1;
+}
+
+.kit-first,
+.kit-second {
+  flex-basis: 25%;
 }
 
 .workshop-primary-image {
+  padding-top: 2rem;
   height: 100px;
 }

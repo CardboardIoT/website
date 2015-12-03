@@ -580,7 +580,7 @@ html {
 
 .section.section-padding {
   margin: 0;
-  padding: 1rem 2rem;
+  padding: 2rem 2rem;
 }
 
 .section.section-padding.section-link {
@@ -610,7 +610,7 @@ html {
 }
 
 .section-primary {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
 /*
@@ -898,6 +898,44 @@ article {
 .demo-workshop-cta code .module {
   font-weight: bold;
 }
-.why {
-  font-size: 1.3rem;
+.why,
+.kit,
+.workshop {
+  font-size: 1.4rem;
+  line-height: 1.7;
+}
+
+.workshop {
+  text-align: center;
+}
+
+.why .section-primary,
+.kit .section-primary {
+  font-weight: bold;
+}
+
+.why p > *,
+.kit p > *,
+.kit .highlight {
+  display: inline-block;
+  padding: 0.3rem;
+}
+
+.why .highlight,
+.kit .highlight {
+  background-color: rgba(255,241,118,1);
+}
+
+.why .cta,
+.kit .cta {
+  font-weight: bold;
+}
+
+.kit-primary-image {
+  width: 50%;
+  float: right;
+}
+
+.workshop-primary-image {
+  height: 100px;
 }

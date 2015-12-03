@@ -1,7 +1,8 @@
 .explainer {
   min-height: 294px;
 
-  background-image: linear-gradient(-135deg, #FDED63 0%, #FFF176 100%);
+  /*background-image: linear-gradient(-135deg, #FDED63 0%, #FFF176 100%);*/
+  background: var(--primary-color);
 }
 
 .explainer > * {

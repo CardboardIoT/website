@@ -16,7 +16,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "dependencies": {},
+  "dependencies": {
+    "normalize-opentype.css": "^0.2.4"
+  },
   "devDependencies": {
     "autoprefixer": "^6.0.3",
     "metalsmith": "^2.1.0",

@@ -1,6 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
 
+/* Node modules */
 @import 'normalize.css';
+@import 'normalize-opentype.css/normalize-opentype.css';
 
 @import 'variables.css';
 @import 'base.css';

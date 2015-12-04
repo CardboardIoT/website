@@ -1,8 +1,8 @@
 .hero {
   padding-top: var(--masthead-height);
-  min-height: 380px;
+  min-height: 420px;
   color: var(--text-color);
-  background: var(--primary-color);
+  background: var(--primary-color) url(/images/background-yellow.jpg);
   background-size: cover;
 }
 

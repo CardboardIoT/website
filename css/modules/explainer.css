@@ -32,8 +32,8 @@
   text-align: center;
 }
 
-.explainer-item:first-child {
-  /*margin-right: 85px;*/
+.explainer-item .image-heart {
+  width: 50%;
 }
 
 .explainer-item:last-child {
@@ -41,7 +41,7 @@
 }
 
 .explainer-item .image {
-  margin-bottom: 20px;
+  margin: 20px auto;
   min-height: 143px;
   line-height: 143px;
 }

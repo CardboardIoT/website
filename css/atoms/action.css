@@ -13,10 +13,21 @@
 
 .action-primary {
   border: var(--text-color);
-  color: var(--text-color);
-  background-color: var(--primary-color);
+  color: var(--primary-color);
+  background-color: var(--text-color);
 }
 
 .action-primary:hover {
-  background-color: var(--primary-active-color);
+  background-color: var(--text-color-secondary);
+  color: var(--primary-active-color);
+}
+
+a.action-primary {
+  padding: 1rem 2rem !important;
+}
+
+a.action-primary,
+a.action-primary:hover {
+  text-decoration: none;
+  color: #fff;
 }

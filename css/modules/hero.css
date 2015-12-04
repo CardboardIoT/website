@@ -1,14 +1,24 @@
 .hero {
   padding-top: var(--masthead-height);
   min-height: 380px;
-  color: #fff;
-  background: var(--primary-color) url(images/hero.jpg) no-repeat;
+  color: var(--text-color);
+  background: var(--primary-color);
   background-size: cover;
 }
 
 .hero-hd {
-  max-width: 578px;
+  max-width: 558px;
+  margin-bottom: 1rem;
   text-align: center;
   font-weight: normal;
   font-size: 40px;
+}
+
+.hero-sub {
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.hero > * {
+  display: block;
 }

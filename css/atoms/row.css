@@ -20,3 +20,27 @@
 
   /*outline: 1px solid blue;*/
 }
+
+
+.col {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+  /*outline: 1px solid red;*/
+}
+
+.col-item {
+  order: 0;
+  flex: 1 1 auto;
+  /*align-self: center;*/
+
+  /*outline: 1px solid blue;*/
+}

@@ -4,7 +4,7 @@
 
 .section.section-padding {
   margin: 0;
-  padding: 1rem 2rem;
+  padding: 2rem 2rem;
 }
 
 .section.section-padding.section-link {
@@ -19,7 +19,11 @@
 }
 
 .section-seperator-above {
-  border-top: 2px solid rgba(74, 74, 74, 0.2);
+  border-top: 1px solid rgba(74, 74, 74, 0.2);
+}
+
+.section-seperator-above-dark {
+  border-top: 1px solid rgba(74, 74, 74, 0.6);
 }
 
 .section-primary,
@@ -30,7 +34,7 @@
 }
 
 .section-primary {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
 /*

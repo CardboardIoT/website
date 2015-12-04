@@ -10,3 +10,22 @@
 .newsletter-action {
   text-align: right;
 }
+
+@media screen and (width <= 432px) {
+  .action {
+    display: block;
+  }
+
+  .action-input,
+  .action-primary {
+    flex: none;
+    display: block;
+    width: 100%;
+
+    margin-bottom: 1rem;
+  }
+
+  .action-input {
+    margin-bottom: 0.5rem;
+  }
+}

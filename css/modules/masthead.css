@@ -52,3 +52,18 @@
   width: inherit;
   height: inherit;
 }
+
+@media screen and (width < 346px) {
+  .masthead.row {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .masthead .row-item {
+    flex-basis: auto;
+  }
+
+  .masthead .logo {
+    margin-left: 1rem;
+  }
+}

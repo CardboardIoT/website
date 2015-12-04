@@ -20,6 +20,26 @@
   align-items: center;
 }
 
+.kit-first {
+  order: -1;
+}
+
+.kit-first,
+.kit-second {
+  flex-basis: 25%;
+}
+
+@media screen and (width <= 668px) {
+  .kit-wrapper {
+    flex-direction: column;
+  }
+
+  .kit-first,
+  .kit-second {
+    flex-basis: auto;
+  }
+}
+
 .kit > * {
   flex: 1 1 auto;
 }
@@ -49,15 +69,6 @@
 .kit-primary-image {
   width: 30%;
   padding: 1rem;
-}
-
-.kit-first {
-  order: -1;
-}
-
-.kit-first,
-.kit-second {
-  flex-basis: 25%;
 }
 
 .workshop-primary-image {

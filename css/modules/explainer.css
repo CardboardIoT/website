@@ -5,6 +5,23 @@
   background: var(--primary-color);
 }
 
+.explainer .row {
+  max-width: var(--layout-max-width);
+  min-width: var(--layout-min-width);
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+@media screen and (width < 768px) {
+  .explainer .row {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .explainer-item {
+    flex-basis: 375px;
+  }
+}
+
 .explainer > * {
   min-height: inherit;
 }
@@ -16,11 +33,11 @@
 }
 
 .explainer-item:first-child {
-  margin-right: 85px;
+  /*margin-right: 85px;*/
 }
 
 .explainer-item:last-child {
-  margin-left: 85px;
+  /*margin-left: 85px;*/
 }
 
 .explainer-item .image {

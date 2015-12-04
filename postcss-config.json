@@ -2,6 +2,7 @@
   "use": [
     "postcss-import",
     "postcss-custom-properties",
+    "postcss-media-minmax",
     "autoprefixer"
   ]
 }

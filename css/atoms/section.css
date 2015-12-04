@@ -2,6 +2,12 @@
   overflow: auto;
 }
 
+.section .container {
+  max-width: var(--layout-max-width);
+  min-width: var(--layout-min-width);
+  margin: 0 auto;
+}
+
 .section.section-padding {
   margin: 0;
   padding: 2rem 2rem;

@@ -1,5 +1,7 @@
 :root {
   --masthead-height: 60px;
+  --layout-max-width: 860px;
+  --layout-min-width: 320px;
 
   --primary-color: rgba(255,241,118,1);
   --primary-active-color: rgba(250,232,72,1);
